@@ -1,0 +1,16 @@
+[package]
+name = "ys"
+description = "The first token stealer written in rust motherfucker 😎"
+version = "0.1.0"
+authors = ["Fifix"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.25.0", features = ["full"] }
+reqwest = "0.11.14"
+serde = "1.0.152"
+serde_json = "1.0.92"
+aes = "0.8.0"
+block-modes = "0.6.1"
